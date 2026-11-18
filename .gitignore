@@ -29,3 +29,11 @@ coverage.xml
 !.claude/commands/
 .claude/commands/*
 !.claude/commands/evaluate-repository.md
+
+# Environment variables & secrets (added by GitHub Guardian)
+.env.*
+*.env
+!.env.example
+!.env.sample
+.envrc
+.venv/
